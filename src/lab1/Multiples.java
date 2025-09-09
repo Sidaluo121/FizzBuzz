@@ -7,7 +7,7 @@ public class Multiples {
         System.out.println(count);
     }
 
-    private static int multiples() {
+    static int multiples() {
         int count = 0;
         for (int i = 1; i <= 1000; i++) {
             Boolean multipleOf3 = i % 3 == 0;
@@ -18,7 +18,7 @@ public class Multiples {
         }
         return count;
     }
-    private static int multiples(int n, int a, int b) {
+    static int multiples(int n, int a, int b) {
         int count = 0;
         for (int i = 1; i <= n; i++) {
             Boolean multipleOfa = i % a == 0;
