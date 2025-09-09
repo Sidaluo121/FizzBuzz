@@ -7,7 +7,7 @@ class FizzBuzz {
 
     public static void main(String[] args) {
         int i = 1;
-        //for (int i = 1; i < 100; i++) {
+        //for (int i = 1; i < 100; i++) {22222
         while (i < 100){
             doFizzBuzz(i);
             i ++;
